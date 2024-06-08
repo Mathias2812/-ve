@@ -16,7 +16,6 @@ else {
 }
 
 
-
 if (FruitArray[2] == "banana"){
     console.log(FruitArray[2])
 }
@@ -81,8 +80,8 @@ function MadFordeler(navn, farve, type, rating, smag){
 const Mad1 = new MadFordeler("Blåbær","blå","bær", 7, "sødt");
 const Mad2 = new MadFordeler("Københavnerstang", "gul", "is", 10, "sødt")
 
-console.log(Mad1);
-console.log(Mad2);
+console.log(Mad1.ToString());
+console.log(Mad2.ToString());
 
 //Object Literal 
 
